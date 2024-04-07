@@ -1,0 +1,132 @@
+.info-pair{
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-size{
+  width: 420px;
+  height: 300px;
+}
+
+.expensive{
+  color: green;
+}
+
+.cheap{
+  color: rgb(164, 62, 62);
+}
+
+.affordable{
+  color: rgb(77, 77, 248);
+}
+
+.bookStore{
+  cursor: pointer;
+}
+
+.book-card {
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.image-size {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.author, .price, .pages, .category, .isbn {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background-color: rgb(32, 85, 142);
+  border-color:rgb(32, 85, 142);
+}
+
+.btn-outline-danger {
+  border-color: #8b940f;
+  color: hsl(30, 89%, 51%);
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.wishlist-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.wishlist-table {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.empty-wishlist {
+  text-align: center
+}
+
+body {
+  padding-top: 20px;
+}
+.navbar-custom {
+  background-color: #007bff; 
+  width: 100%; 
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important; 
+}
+.btn-wishlist {
+  background-color: #d2a212; 
+  color: black;
+  transition: background-color 0.3s ease;
+}
+.btn-wishlist:hover {
+  background-color: #e0a800; 
+}
+
+
+.book-info p, .book-info h5 {
+  margin: 0;
+  padding: 2px 0;
+}
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.btn-custom-wishlist {
+  background-color: #007bff;
+  color: white;
+}
+.btn-custom-wishlist:hover {
+  background-color: #113052;
+}
+.table-custom {
+  background-color: #d3d6d8;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-responsive {
+  max-width: 95%;
+  margin: auto;
+}
+.table th, .table td {
+  vertical-align: middle;
+}
+
